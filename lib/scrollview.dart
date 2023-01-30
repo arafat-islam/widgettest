@@ -11,6 +11,7 @@ class MySingleChildScrollView extends StatelessWidget {
         child: Column(
           children: <Widget>[
             SingleChildScrollView(
+              
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
